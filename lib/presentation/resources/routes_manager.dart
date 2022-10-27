@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import '../views/forogot_password/forgot_password_route.dart';
 import '../views/login/login_route.dart';
 import '../views/main/main_route.dart';
-import '../views/onboarding/onboarding_route.dart';
+import '../views/onboarding/view/onboarding_view.dart';
 import '../views/register/register_route.dart';
 import '../views/splash/splash_route.dart';
 import '../views/store_details/store_details.dart';

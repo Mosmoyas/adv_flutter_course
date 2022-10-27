@@ -7,7 +7,7 @@ class MyApp extends StatefulWidget {
   // const MyApp({super.key})
 
   const MyApp._internal();
-  static final MyApp _instance = MyApp._internal();
+  static const MyApp _instance = MyApp._internal();
   factory MyApp() => _instance;
   @override
   State<MyApp> createState() => _MyAppState();
