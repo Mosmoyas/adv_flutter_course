@@ -17,9 +17,8 @@ class OnBoardingViewModel extends BaseViewModel
   late final List<SliderObject> _list;
   int currentIndex = 0;
 
-  @override
-
   //OnBoarding ViewModel Inputs
+  @override
   void dispose() {
     _streamController.close();
   }
@@ -52,11 +51,12 @@ class OnBoardingViewModel extends BaseViewModel
   }
 
   @override
-   // to can access the sink of the stream controller
+  // to can access the sink of the stream controller
   // Sink get inputSliderViewObject => _streamController.sink;
   Sink get inPutSliderViewObject => _streamController.sink;
 
   @override
+  //take the result from sink in a map as OutPuts and then passed to the StreamController
   Stream<SliderViewObject> get OutPutSliderViewObject =>
       _streamController.stream.map((sliderObject) => sliderObject);
 //OnBoarding private functions

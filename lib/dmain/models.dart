@@ -1,3 +1,5 @@
+
+//Create Object SliderObject to be added to the List _gestSliderData
 class SliderObject {
   String title;
   String subtitle;
@@ -7,7 +9,7 @@ class SliderObject {
 
 //SliderViewObject to carry the data come from the ViewModel to the View
 class SliderViewObject {
-  SliderObject sliderObject;
+  SliderObject sliderObject;//Object as an List Item
   int nunOfSlider;
   int currentIndex;
 

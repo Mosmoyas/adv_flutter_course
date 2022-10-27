@@ -170,7 +170,6 @@ class OnBoardingsPage extends StatelessWidget {
           padding: const EdgeInsets.all(AppPadding.p8),
           child: Text(
             sliderObject.title,
-            
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.displayLarge,
           ),
