@@ -2,7 +2,7 @@
 
 import 'dart:async';
 
-import 'package:adv_flutter_course/dmain/models.dart';
+import 'package:adv_flutter_course/domain/model/models.dart';
 import 'package:adv_flutter_course/presentation/base/base_view_model.dart';
 
 import '../../../resources/assets_manager.dart';
