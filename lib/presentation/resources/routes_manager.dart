@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 import '../views/forogot_password/forgot_password_route.dart';
-import '../views/login/login_route.dart';
+import '../views/login/view/login_view.dart';
 import '../views/main/main_route.dart';
 import '../views/onboarding/view/onboarding_view.dart';
 import '../views/register/register_route.dart';
